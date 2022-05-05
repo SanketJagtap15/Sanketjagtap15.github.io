@@ -142,12 +142,14 @@ section.about h3{
     margin-bottom: 0.1rem;
     margin-top: 8rem;
     font-weight: 540;
+    margin-top: 6rem;
 }
 section.about h4{
     font-family: cookie;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     margin-bottom: 0.2rem;
     font-weight: 400;
+    margin-top: 2.6rem;
 }
 section.about p{
     font-size: 1rem;
@@ -394,7 +396,9 @@ footer .copyright{
     font-family: lato;
 }
 
-
+#copy{
+    color: var(--primary);
+}
 
 .site-main-wrapper{
     position: relative;
@@ -456,26 +460,27 @@ footer .copyright{
 @media (max-width:1024px){
     /* header #main-nav{
         display: none;
-    } */
-    
+    }  */
+
     header nav .left a:hover{
         color:var(--primary);
     }
     header nav{
         padding-top: 6rem;
         padding-bottom: 0rem;
-        padding-left: -2rem; 
+        margin-left: -1rem;
 
     }
 
     header nav .left a{
         color:var(--pure);
         text-decoration: none;
-        margin-right: 5rem;
+        margin-right: 0rem;
         margin-bottom: 2rem;
         font-size: 0px;
         transition: all 0.3s ease;
         line-height: 2rem;
+        /* margin-left: -5rem; */
         
     }
 
@@ -491,14 +496,15 @@ footer .copyright{
 
     header nav .branding{
         margin-right:0rem;
+    }
 
 
     /* .container{
         max-width:1152px;
         padding:15px 0px;
-        margin: 0 -15px; */
+        margin: 0 -15px; 
 
-    }
+    } */
 
     .hamberger{
         display: block;
@@ -531,11 +537,9 @@ section.blog .card-wrapper .card .image-wrapper img{
     width:100%;
     height: 100%;
     object-fit: cover;
-    padding-left: 0rem;
 }
 section.blog .card-wrapper .card img{
     padding-left: 0rem;
-    padding-right: 5rem;
     width: 450px;
     height: 300px;
     padding-top: 0rem;
@@ -555,10 +559,15 @@ section.blog{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 93.5%, 0 100%);
     padding-bottom: 12rem;
 }
+
+section.about .social a{
+    margin-right: 0.3rem;
+}
+
 }
 
 
-@media (max-width:576px){
+@media (max-width:821px){
     .hero{
         flex-direction: column;
     }
@@ -674,9 +683,6 @@ section.blog{
         margin-bottom: 1.4rem;
         margin-top: 4rem;
     }
-
-   
-
 
 
 
