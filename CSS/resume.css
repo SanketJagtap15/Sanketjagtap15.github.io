@@ -1,5 +1,5 @@
 .resume {
-    padding-left: 13rem;
+    padding-left: 0rem;
     background-color:dimgrey;
    
 }
@@ -7,6 +7,7 @@
     border: 12px;
     border-color: rgb(0, 1, 1);
     padding-top: 5rem;
+    position:absolute;
 
 }
 
@@ -20,7 +21,7 @@
     margin-left: 32rem;
     margin-right: 32rem;
 }
-.marquee{
+/* .marquee{
    background-color: rgb(205, 155, 155);
    padding: 0.4rem;
    padding-left: 4rem;
@@ -28,4 +29,4 @@
    margin-right: 63rem;
    margin-bottom: 3rem;
    
-}
+} */

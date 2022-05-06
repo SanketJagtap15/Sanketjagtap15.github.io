@@ -518,7 +518,8 @@ footer .copyright{
 }
 section.about .about-me-image{
     height: 400px;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
+    margin-top: -5rem;
 }
 
 
