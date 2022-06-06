@@ -11,6 +11,29 @@
     <link rel="stylesheet" href="./CSS/style.css"> 
     <link rel="icon" href="./Images/SJsquare Logo.png" type="image/png">  
 </head>
+
+<nav id="main-nav" class="flex items-center justify-between">
+    <div class="left flex items-center">
+        <div class="branding">
+            <img src=" ./Images/SJsquare Logo.png" width="100px">
+
+        </div>
+        <div id="sj">SJsquare</div>
+        <div>
+           <a href="#home">Home</a> 
+           <a href="#about">About Me</a>
+           <a href="#study">My Education</a>
+           <a href="#skill">My Skills</a>
+        
+           
+        </div>
+    </div>
+    <div class="right">
+       <a href="#contact"><button class="btn btn-primary">Contact Me</button></a>
+      
+    </div>
+</nav>
+
 <body>
     <div class="site-main-wrapper">
         <button class="hamberger">
@@ -20,51 +43,38 @@
             <button class="times"><img src="./Images/times.svg" alt=""></button>
             <ul>
                 <li><img src="./Images/SJsquare Logo.png" alt="" width="114" height="82.2"></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#study">My Education</a></li>
-                <li><a href="#skill">My Skills</a></li>
+                <li> <a href="#home"><button class="btn btn-primary">Home</button></a></li>
+                <li> <a href="#about"><button class="btn btn-primary">About Me</button></a></li>
+                <li> <a href="#study"><button class="btn btn-primary">My Education</button></a></li>
+                <li> <a href="#skill"><button class="btn btn-primary">My Skills</button></a></li>
+                <li> <a href="#contact"><button class="btn btn-primary">Contact Me</button></a></li>
+                
             </ul>
         </div>
 
         <header>
+           <section id="home">
             <div class="container">
-            <nav id="main-nav" class="flex items-center justify-between">
-                <div class="left flex items-center">
-                    <div class="branding">
-                        <img src=" ./Images/SJsquare Logo.png">
-    
-                    </div>
-                    <div>
-                       <a href="#about">About Me</a>
-                       <a href="#study">My Education</a>
-                       <a href="#skill">My Skills</a>
-                    
-                       
-                    </div>
+            
+                <div class="hero flex items-center justify-between">
+                <div class="left">
+                    <img src="./Images/photo_2022-04-07_16-05-14-modified.jpg" width="600px" height="450px">
                 </div>
                 <div class="right">
-                   <a href="#contact"><button class="btn btn-primary">Contact Me</button></a>
-                  
+                    <h1>Sanket Jagtap</h1>
+                    <h3> I am an <span>IITian...</span></h3>
+                    <p> Hello Everyone ! <br>
+                        I am an Enthusiastic learner. <br>
+                       This is my Portfolio Website. This Website was made by me.<br>
+                        It's my pleasure to have you on my Website.<br>
+                        Thank You...!
+                    </p>
                 </div>
-            </nav>
-            <div class="hero flex items-center justify-between">
-            <div class="left">
-                <img src="./Images/photo_2022-04-07_16-05-14-modified.jpg" width="600px" height="450px">
-            </div>
-            <div class="right">
-                <h1>Sanket Jagtap</h1>
-                <h3> I am an <span>IITian...</span></h3>
-                <p> Hello Everyone ! <br>
-                    I am an Enthusiastic learner. <br>
-                   This is my Portfolio Website. This Website was made by me.<br>
-                    It's my pleasure to have you on my Website.<br>
-                    Thank You...!
-                </p>
-            </div>
-               
-    
-            </div>
-            </div>
+                   
+        
+                </div>
+                </div>
+           </section>
         </header>
     
         <section id="about" class="about">
@@ -110,7 +120,6 @@
                         <h1>Gandhi Primary School</h1>
                         
                         <p>From Lower Kindergarten upto 4th Standard, I studied in Gandhi Primary School. In the year 2012, I completed my primary schooling. As a student of this school I was involved in many Extra-curricular Activities along with Academics. I win many prizes,medals,trophies during that time. </p>
-                        <a href="#">Read More</a>
                     </div>
                     <div class="card">
                         <div class="img wrapper">
@@ -121,7 +130,6 @@
                         <h1>Bharat Vidyalaya</h1>
                     
                         <p>From 5th class to 10th class I studied in Bharat Vidyalaya. In the year 2019, I completed my secondary schooling. As a student of this school, I was involved in many Extra-curricular Activities along with Academics. I win many prizes, medals and trophies during that time. </p>
-                        <a href="#">Read More</a>
                     </div>
     
                     <div class="card">
@@ -133,7 +141,6 @@
                         <h1>M.P. Deo Jr. College</h1>
                         
                         <p>In 11th and 12th Standard I was a student of M.P. Deo Jr College. In the year 2021, I completed my higher secondary education. As a student of this college, I was involved in many Extra-curricular Activities along with Academics. I win many prizes, medals and trophies during that time. </p>
-                        <a href="#">Read More</a>
                     </div>
     
                     
@@ -148,7 +155,6 @@
                                     
                                     <p>As of now, I am a first-year UG student pursuing a B-tech course at IIT Kharagpur. I am feeling very grateful for my life as I am a part of IIT Kharagpur. I will graduate from IIT Kharagpur in the year 2025. As of now, I am actively involved in the Academics and Extra-curricular activities at IIT Kharagpur. Looking forward to a Great Journey ahead !
                                     </p>
-                                    <a href="#">Read More</a>
     
                 </div>
             </div>
@@ -173,7 +179,7 @@
                         <img src="./Images/web d.png" alt="" width="110px" height="110px">
                        
                         <h2>Programming</h2>
-                        <p>Coading is today's language of creativity. Future generations deserve a chance to become creators instead consumers of computer science. I know how to do programming. I learned html and css. Now I am learning 'c' language.</p>
+                        <p>Coading is today's language of creativity. Future generations deserve a chance to become creators instead consumers of computer science. I know how to do programming. I learned HTML, CSS, JS, React, C languages. Now I am learning 'C++' language.</p>
                     </div>
                     <div class="card">
                         <img src="./Images/planning.png" alt="" width="110px" height="110px">

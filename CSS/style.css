@@ -16,7 +16,10 @@ body {
     margin:0;
     padding:0;
     overflow-x:hidden;
+    z-index: 1;
+    margin-top: 5rem;
 }
+
 body{
     font-family: 'Poppins','cookie',;
 }
@@ -30,7 +33,6 @@ html{
     box-sizing: border-box;
     -webkit-font-smoothing:antialiased;
      /* color: greenyellow; */
-     cursor: pointer;
      text-decoration: none;
 }
 
@@ -67,26 +69,40 @@ header{
     }
 }
 
+#sj{
+    display: none;
+}
 
-
-
-header nav .left a{
+nav .left a{
     color:var(--pure);
     text-decoration: none;
-    margin-right: 5rem;
+    margin-right: 6rem;
     font-size: 25px;
     transition: all 0.3s ease;
     
 }
-header nav .left a:hover{
+nav .left a:hover{
     color:var(--primary);
 }
-header nav {
-    padding:2rem 0;
+nav {
+    padding:0rem 0 0rem 0;
+    position: fixed;
+    z-index: 1;
+    background: #000000;
+    width: 100%;
+    margin-top: -5.3rem;
 }
-header nav .branding{
-    margin-right:6rem;
+nav .branding{
+    margin-right:7rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
 }
+
+nav .right{
+    margin-right: 6rem;
+}
+
+
 .hero{
     padding: 4.2rem 0;
 }
@@ -404,8 +420,8 @@ footer .copyright{
     position: relative;
 }
 .hamberger{
-    position: absolute;
-    top: 20px;
+    position: fixed;
+    top: 29px;
     right: 20px;
     z-index: 11;
     background: none;
@@ -461,18 +477,21 @@ footer .copyright{
     /* header #main-nav{
         display: none;
     }  */
+    body{
+        margin-top: 4.9rem;
+    }
 
-    header nav .left a:hover{
+    nav .left a:hover{
         color:var(--primary);
     }
-    header nav{
+    nav{
         padding-top: 6rem;
         padding-bottom: 0rem;
         margin-left: -1rem;
 
     }
 
-    header nav .left a{
+    nav .left a{
         color:var(--pure);
         text-decoration: none;
         margin-right: 0rem;
@@ -480,9 +499,36 @@ footer .copyright{
         font-size: 0px;
         transition: all 0.3s ease;
         line-height: 2rem;
-        /* margin-left: -5rem; */
         
     }
+    nav {
+        padding:0rem 0 0rem 0;
+        position: fixed;
+        z-index: 1;
+        background: #000000;;
+        width: 120%;
+        margin-top: -4.89rem;
+    }
+    nav .branding{
+        margin-right:0rem;
+        margin-left: 3rem;
+        margin-top: 0rem;
+    }
+    
+    nav .right{
+        display: none;
+    }
+
+    #sj{
+        display: block;
+        background:rgb(193, 178, 158);
+        padding: 0.6rem;
+        margin-left: 3.8rem;
+        font-family: cookie;
+        font-size: 1.2rem;
+        transition: all 0.3s ease ;
+    }
+    
 
     .btn{
         padding:0.6rem 1.2rem;
@@ -492,10 +538,6 @@ footer .copyright{
         cursor: pointer;
         text-transform: uppercase;
         transition: all 0.3s ease;
-    }
-
-    header nav .branding{
-        margin-right:0rem;
     }
 
 
@@ -512,14 +554,15 @@ footer .copyright{
     .hero .left img{
         width: 400px;
         height: 305px;
+        margin-top: -8rem;
 }
 .hero{
     padding-top: 10rem;
 }
 section.about .about-me-image{
     height: 400px;
-    /* padding-left: 5rem; */
-    margin-top: -5rem;
+    padding-left: 5rem;
+    /* margin-top: -5rem; */
 }
 
 
