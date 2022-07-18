@@ -473,6 +473,10 @@ footer .copyright{
     font-size: 2rem;
 }
 
+#resume{
+    display: none;
+}
+
 @media (max-width:1024px){
     /* header #main-nav{
         display: none;
@@ -718,7 +722,7 @@ section.about .social a{
         margin-right: 5rem;
         padding-right: -3rem;
         grid-column: auto;
-    } */
+    } 
 
     section.contact .input-wrap{
         display: grid;
@@ -728,9 +732,14 @@ section.about .social a{
         margin-top: 4rem;
     }
 
+    #resume{
+        display: block;
+        margin-left: 6rem;
+    }
 
-
-
+    #cv{
+        display: none;
+    }
 
 
 
