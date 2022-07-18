@@ -477,6 +477,10 @@ footer .copyright{
     display: none;
 }
 
+a{
+    color: #217679;
+}
+
 @media (max-width:1024px){
     /* header #main-nav{
         display: none;
