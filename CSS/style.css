@@ -73,6 +73,10 @@ header{
     display: none;
 }
 
+.flex-1 h1{
+    font-family: 'poppins','lato';
+}
+
 nav .left a{
     color:var(--pure);
     text-decoration: none;
@@ -114,7 +118,7 @@ nav .right{
     color: var(--primary);
     margin-bottom: -0.5rem;
     font-weight: 160;
-    font-family: 'poppins';
+    font-family: 'poppins','lato';
     text-align: center;
 }
 .hero .right h3{
@@ -203,11 +207,11 @@ section.services{
 }
 section.services .card-wrapper .card{
     background: var(--pure);
-    padding: 3rem 2rem;
+    padding: 3rem 1rem 2rem 1rem;
     position: relative;
     padding-top: 6rem;
     text-align: center;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 section.services .card-wrapper .card img{
     position: absolute;
@@ -529,11 +533,13 @@ a{
 
     #sj{
         display: block;
-        background:rgb(193, 178, 158);
+        color: #3DCFD3;
+        /* background:rgb(193, 178, 158); */
+        transform: translateX(50%);
         padding: 0.6rem;
-        margin-left: 3.8rem;
+        /* margin-left: 2.8rem; */
         font-family: cookie;
-        font-size: 1.2rem;
+        font-size: 2.2rem;
         transition: all 0.3s ease ;
     }
     
@@ -634,12 +640,13 @@ section.about .social a{
     }
 
     .hero .right h1{
-        font-size: 3rem;
+        font-size: 2.7rem;
         color: var(--primary);
         margin-bottom: -0.5rem;
         font-weight: 160;
         font-family: 'poppins';
         padding-top: 3rem;
+
     }
 
     .about-inner-wrap{
@@ -745,6 +752,12 @@ section.about .social a{
         display: none;
     }
 
+    .hero .right p{
+        line-height: 1;
+        margin-bottom: 2rem ;
+        font-size: 22px;
+        margin-left: 0rem;
+    }
 
 
 
