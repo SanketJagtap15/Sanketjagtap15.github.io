@@ -74,7 +74,7 @@ header{
 }
 
 .flex-1 h1{
-    font-family: 'poppins','lato';
+    font-family: 'Ibarra Real Nova', serif,'lato';
 }
 
 nav .left a{
@@ -118,13 +118,13 @@ nav .right{
     color: var(--primary);
     margin-bottom: -0.5rem;
     font-weight: 160;
-    font-family: 'poppins','lato';
+    font-family: 'Ibarra Real Nova', serif,'lato';
     text-align: center;
 }
 .hero .right h3{
     font-size: 2rem;
     font-weight: 100;
-    font-family: 'poppins','lato';
+    font-family: 'Ibarra Real Nova', serif,'lato';
     margin-bottom: 2rem;
     color: #898989;
     text-align: center;
@@ -151,7 +151,7 @@ section.about .about-me-image{
 section.about h1{
     margin-bottom: 4rem;
     font-size: 3rem;
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     text-align: center;
 }
 section.about h1 span{
@@ -271,14 +271,14 @@ padding-left: 2rem;
 
 section.blog .card-wrapper .card h1{
     font-size: 2.5rem;
-    font-family:Poppins;
+    font-family:'Ibarra Real Nova', serif;
     font-weight: 545;
     text-align: center;
     padding-top: 2rem;
     color: #0b8589;
 }
 section.blog .card-wrapper .card  p{
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     color: var(--ternary);
     margin-top: 0.8rem;
     margin-bottom: 1rem;
@@ -320,7 +320,7 @@ section.contact .card-wrapper .card h1{
 }
 section.contact .card-wrapper .card h6{
     font-size: 1rem;
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     color: var(--ternary);
 }
 
@@ -362,7 +362,7 @@ section.contact .btn-wrapper{
     margin: 0 auto;
     border-radius: 8px;
     margin-top: 20px;
-    font-family: poppins, lato;
+    font-family: 'Ibarra Real Nova', serif, lato;
     font-size: 20px;
 }
 #status.success{
@@ -581,7 +581,7 @@ section.about .about-me-image{
 
 
 section.blog .card-wrapper .card  p{
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     color: var(--ternary);
     margin-top: 0.8rem;
     margin-bottom: 1rem;
@@ -605,7 +605,7 @@ section.blog .card-wrapper .card img{
 
 section.blog .card-wrapper .card h1{
     font-size: 2.5rem;
-    font-family:poppins;
+    font-family:'Ibarra Real Nova', serif;
     font-weight: 500;
     text-align: center;
     padding-top: 2rem;
@@ -644,7 +644,7 @@ section.about .social a{
         color: var(--primary);
         margin-bottom: -0.5rem;
         font-weight: 160;
-        font-family: 'poppins';
+        font-family: 'Ibarra Real Nova', serif;
         padding: 3rem 0 0 0;
 
     }
