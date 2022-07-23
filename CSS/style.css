@@ -714,7 +714,7 @@ section.about .social a{
         font-weight: 500;
         margin-bottom: 0.5rem;
         margin-top: 3rem;
-        color: #e9a9a9;
+        color: var(--pure);
     }
     section.freelancer p{
         margin-bottom: 2rem;
