@@ -21,7 +21,7 @@ body {
 }
 
 body{
-    font-family: 'Poppins','cookie',;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 html{
@@ -73,6 +73,10 @@ header{
     display: none;
 }
 
+.flex-1 h1{
+    font-family: 'Ibarra Real Nova', serif,'lato';
+}
+
 nav .left a{
     color:var(--pure);
     text-decoration: none;
@@ -114,13 +118,13 @@ nav .right{
     color: var(--primary);
     margin-bottom: -0.5rem;
     font-weight: 160;
-    font-family: 'poppins';
+    font-family: 'Ibarra Real Nova', serif,'lato';
     text-align: center;
 }
 .hero .right h3{
     font-size: 2rem;
     font-weight: 100;
-    font-family: 'poppins','lato';
+    font-family: 'Ibarra Real Nova', serif,'lato';
     margin-bottom: 2rem;
     color: #898989;
     text-align: center;
@@ -147,7 +151,7 @@ section.about .about-me-image{
 section.about h1{
     margin-bottom: 4rem;
     font-size: 3rem;
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     text-align: center;
 }
 section.about h1 span{
@@ -203,11 +207,11 @@ section.services{
 }
 section.services .card-wrapper .card{
     background: var(--pure);
-    padding: 3rem 2rem;
+    padding: 3rem 1rem 2rem 1rem;
     position: relative;
     padding-top: 6rem;
     text-align: center;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 section.services .card-wrapper .card img{
     position: absolute;
@@ -267,14 +271,14 @@ padding-left: 2rem;
 
 section.blog .card-wrapper .card h1{
     font-size: 2.5rem;
-    font-family:Poppins;
+    font-family:'Ibarra Real Nova', serif;
     font-weight: 545;
     text-align: center;
     padding-top: 2rem;
     color: #0b8589;
 }
 section.blog .card-wrapper .card  p{
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     color: var(--ternary);
     margin-top: 0.8rem;
     margin-bottom: 1rem;
@@ -316,7 +320,7 @@ section.contact .card-wrapper .card h1{
 }
 section.contact .card-wrapper .card h6{
     font-size: 1rem;
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     color: var(--ternary);
 }
 
@@ -358,7 +362,7 @@ section.contact .btn-wrapper{
     margin: 0 auto;
     border-radius: 8px;
     margin-top: 20px;
-    font-family: poppins, lato;
+    font-family: 'Ibarra Real Nova', serif, lato;
     font-size: 20px;
 }
 #status.success{
@@ -529,11 +533,13 @@ a{
 
     #sj{
         display: block;
-        background:rgb(193, 178, 158);
+        color: #3DCFD3;
+        /* background:rgb(193, 178, 158); */
+        transform: translateX(30%);
         padding: 0.6rem;
-        margin-left: 3.8rem;
-        font-family: cookie;
-        font-size: 1.2rem;
+        /* margin-left: 2.8rem; */
+        font-family: 'cookie';
+        font-size: 2.2rem;
         transition: all 0.3s ease ;
     }
     
@@ -575,7 +581,7 @@ section.about .about-me-image{
 
 
 section.blog .card-wrapper .card  p{
-    font-family: poppins;
+    font-family: 'Ibarra Real Nova', serif;
     color: var(--ternary);
     margin-top: 0.8rem;
     margin-bottom: 1rem;
@@ -599,7 +605,7 @@ section.blog .card-wrapper .card img{
 
 section.blog .card-wrapper .card h1{
     font-size: 2.5rem;
-    font-family:poppins;
+    font-family:'Ibarra Real Nova', serif;
     font-weight: 500;
     text-align: center;
     padding-top: 2rem;
@@ -634,12 +640,13 @@ section.about .social a{
     }
 
     .hero .right h1{
-        font-size: 3rem;
+        font-size: 2.7rem;
         color: var(--primary);
         margin-bottom: -0.5rem;
         font-weight: 160;
-        font-family: 'poppins';
-        padding-top: 3rem;
+        font-family: 'Ibarra Real Nova', serif;
+        padding: 3rem 0 0 0;
+
     }
 
     .about-inner-wrap{
@@ -707,11 +714,11 @@ section.about .social a{
         font-weight: 500;
         margin-bottom: 0.5rem;
         margin-top: 3rem;
-        color: #e9a9a9;
+        color: var(--pure);
     }
     section.freelancer p{
         margin-bottom: 2rem;
-        font-family: cookie;
+        font-family: 'cookie';
         font-size: 2rem;
     }
 
@@ -745,6 +752,12 @@ section.about .social a{
         display: none;
     }
 
+    .hero .right p{
+        line-height: 1;
+        margin-bottom: 2rem ;
+        font-size: 22px;
+        margin-left: 0rem;
+    }
 
 
 
