@@ -238,7 +238,7 @@ section.services .card-wrapper .card:hover h2{
 }
 section.blog{
     background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 94%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 96%, 0 100%);
     padding-bottom: 12rem;
 }
 section.blog .section-heading{
