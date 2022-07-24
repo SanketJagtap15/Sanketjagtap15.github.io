@@ -203,8 +203,8 @@ section.services .card-wrapper{
 
 }
 section.services{
-    /* margin-bottom: 26rem; */
     background: var(--light);
+    clip-path: polygon(0 0, 10% 4%, 20% 0%, 30% 4%, 40% 0%, 50% 4%, 60% 0%, 70% 4%, 80% 0%, 90% 4%, 100% 0, 100% 100%, 0 100%);
 }
 section.services .card-wrapper .card{
     background: var(--pure);
@@ -535,7 +535,6 @@ a{
   section.bar{
       height: 550px;
       background: var(--pure);
-      margin-top: 8rem;
       padding: 5rem 10rem;
   }
 
@@ -751,6 +750,15 @@ section.about .social a{
         padding: 2rem;
     }
 
+    section.services{
+        background: var(--light);
+        clip-path: polygon(0 0, 10% 1%, 20% 0%, 30% 1%, 40% 0%, 50% 1%, 60% 0%, 70% 1%, 80% 0%, 90% 1%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    section.services .section-heading{
+        margin-top: 3rem;
+    }
+
     section.services .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -808,8 +816,9 @@ section.about .social a{
 
     section.blog{
         background: var(--dark);
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 97.5%, 0 100%);
-        padding-bottom: 10rem;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 99%, 0 100%);
+        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 99.4%, 80% 100%, 70% 99.4%, 60% 100%, 50% 99.4%, 40% 100%, 30% 99.4%, 20% 100%, 10% 99.4%, 0 100%); */
+        padding-bottom: 8rem;
     }
 
     section.blog .card-wrapper .card{
@@ -887,9 +896,9 @@ section.about .social a{
   }
 
   section.bar{
-      height: 800px;
+      height: 850px;
       background: var(--pure);
-      margin-top: 4rem;
+      margin-top: 2rem;
       padding: 2rem;
   }
 
