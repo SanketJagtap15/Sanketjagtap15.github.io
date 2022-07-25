@@ -236,6 +236,20 @@ section.services .card-wrapper .card:hover{
 section.services .card-wrapper .card:hover h2{
     color: var(--pure);
 }
+
+section.services .section-heading,
+section.services .para{
+    display: none;
+}
+
+#critical{
+    margin-top: 4rem;
+}
+
+#critical2{
+    margin-top: 4rem;
+}
+
 section.blog{
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 96%, 0 100%);
@@ -662,6 +676,10 @@ section.about .about-me-image{
     /* margin-top: -5rem; */
 }
 
+section.about h1{
+    margin-bottom: -3rem;
+}
+
 
 section.blog .card-wrapper .card  p{
     font-family: 'Ibarra Real Nova', serif;
@@ -761,6 +779,14 @@ section.about .social a{
 
     section.services .card-wrapper{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #critical{
+        margin-top: 8rem;
+    }
+
+    #critical2{
+        margin-top: 0rem;
     }
 
      section.blog .card-wrapper{
@@ -929,4 +955,14 @@ section.about .social a{
     padding: 3rem 0rem 0rem 0rem;
   }
 
+}
+
+@media (max-width:363px){
+    .hero .right h1{
+        font-size: 2rem;
+    }
+
+    .hero .right h3{
+        font-size: 1.5rem;
+    }
 }
