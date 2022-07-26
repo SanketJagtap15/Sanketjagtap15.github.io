@@ -965,4 +965,8 @@ section.about .social a{
     .hero .right h3{
         font-size: 1.5rem;
     }
+
+    section.blog .card-wrapper .card h1{
+        font-size: 2.2rem;
+    }
 }
