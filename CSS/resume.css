@@ -5,11 +5,12 @@ body{
 
 
 .resume img{
+    width: 100%;
     border: 12px;
     border-color: rgb(0, 1, 1);
     padding-top: 5rem;
     position:absolute;
-    transform: translateX(0%);
+    /* transform: translateX(25%); */
 }
 
 .this{
@@ -19,5 +20,16 @@ body{
     background-color: rgb(0, 0, 0);
     margin-top: 3rem;
     width: 40%;
-    transform: translateX(60%);
+    transform: translateX(72%);
 } 
+
+/* @media (min-width: 576px){
+    .resume img{
+        width: 70%;
+        border: 12px;
+        border-color: rgb(0, 1, 1);
+        padding-top: 5rem;
+        position:absolute;
+        transform: translateX(20%);
+    }
+} */
