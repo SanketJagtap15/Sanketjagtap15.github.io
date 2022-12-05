@@ -117,7 +117,7 @@ nav .right {
 
 
 .hero {
-    padding: 4.2rem 0;
+    padding: 1rem 0 3rem 0;
 }
 
 .hero .right {
@@ -740,7 +740,7 @@ footer .chu{
 
     .hero .left img {
         width: 400px;
-        height: 305px;
+        height: 400px;
         margin-top: -8rem;
     }
 
