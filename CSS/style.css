@@ -591,9 +591,9 @@ footer .copyright {
     font-size: 2rem;
 }
 
-#resume {
+/* #resume {
     display: none;
-}
+} */
 
 a {
     color: #217679;
@@ -971,14 +971,14 @@ footer .chu{
         margin-top: 4rem;
     }
 
-    #resume {
+    /* #resume {
         display: block;
         margin-left: 6rem;
-    }
+    } */
 
-    #cv {
+    /* #cv {
         display: none;
-    }
+    } */
 
     .hero .right p {
         line-height: 1;
