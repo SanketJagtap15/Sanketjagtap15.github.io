@@ -898,13 +898,14 @@ footer .chu{
     }
 
     #por{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         margin-bottom: 0rem;
     }
 
     #intern{
         margin-top: -8rem;
         margin-bottom: 2rem;
+        font-size: 2rem;
     }
 
     section.services li{
