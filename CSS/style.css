@@ -229,7 +229,8 @@ section.services .card-wrapper {
 
 section.services {
     background: var(--light);
-    clip-path: polygon(0 0, 10% 4%, 20% 0%, 30% 4%, 40% 0%, 50% 4%, 60% 0%, 70% 4%, 80% 0%, 90% 4%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 4%, 67% 0, 100% 4%, 100% 100%, 0 100%);
+    /* clip-path: polygon(0 0, 10% 4%, 20% 0%, 30% 4%, 40% 0%, 50% 4%, 60% 0%, 70% 4%, 80% 0%, 90% 4%, 100% 0, 100% 100%, 0 100%); */
 }
 
 section.services .card-wrapper .card {
@@ -249,15 +250,33 @@ section.services .card-wrapper .card img {
 }
 
 section.services .card-wrapper .card h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 550;
-    margin-bottom: 0.5rem;
-    margin-top: -1.5rem;
+    margin-bottom: 0rem;
+    margin-top: -1.8rem;
+}
+
+
+
+section.services .card-wrapper .card h3{
+    color: #4d4d4d;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+section.services .card-wrapper .card h4{
+    color: #6e6e6e;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 section.services .card-wrapper .card p {
     font-family: lato;
-    color: #898989;
+    color: #585656;
+}
+
+section.services .card-wrapper .card li{
+    text-align: left;
 }
 
 section.services .card-wrapper .card:hover {
@@ -268,9 +287,27 @@ section.services .card-wrapper .card:hover h2 {
     color: var(--pure);
 }
 
-section.services .section-heading,
+section.services .card-wrapper .card:hover h3 {
+    color: #c4c1c1;
+}
+
+section.services .card-wrapper .card:hover h4 {
+    color: #a2a2a2;
+}
+
+section.services .card-wrapper .card:hover li {
+    color: #a8a8a8;
+}
+
+/* section.services .section-heading, */
 section.services .para {
     display: none;
+}
+
+section.services .section-heading{
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 6rem;
 }
 
 #critical {
@@ -613,14 +650,14 @@ a {
 }
 
 section.bar {
-    height: 550px;
+    height: 630px;
     background: var(--pure);
     padding: 5rem 10rem;
 }
 
 section.bar h1 {
     margin-bottom: 3rem;
-    margin-top: -2rem;
+    margin-top: 1rem;
     background: var(--light);
     padding: 1rem;
 }
@@ -852,11 +889,26 @@ footer .chu{
 
     section.services {
         background: var(--light);
-        clip-path: polygon(0 0, 10% 1%, 20% 0%, 30% 1%, 40% 0%, 50% 1%, 60% 0%, 70% 1%, 80% 0%, 90% 1%, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 1.3%, 70% 0.5%, 100% 1.3%, 100% 100%, 0 100%);
+        /* clip-path: polygon(0 0, 10% 1%, 20% 0%, 30% 1%, 40% 0%, 50% 1%, 60% 0%, 70% 1%, 80% 0%, 90% 1%, 100% 0, 100% 100%, 0 100%); */
     }
 
     section.services .section-heading {
-        margin-top: 3rem;
+        margin-top: 5rem;
+    }
+
+    #por{
+        font-size: 2.5rem;
+        margin-bottom: 0rem;
+    }
+
+    #intern{
+        margin-top: -8rem;
+        margin-bottom: 2rem;
+    }
+
+    section.services li{
+        font-size: 1rem;
     }
 
     section.services .card-wrapper {
@@ -982,7 +1034,7 @@ footer .chu{
     }
 
     section.bar {
-        height: 850px;
+        height: 950px;
         background: var(--pure);
         margin-top: 2rem;
         padding: 2rem;
@@ -990,7 +1042,7 @@ footer .chu{
 
     section.bar h1 {
         margin-bottom: 3rem;
-        margin-top: 0rem;
+        margin-top: 2rem;
         background: var(--light);
         padding: 1rem 0rem;
     }
