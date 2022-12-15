@@ -788,7 +788,8 @@ footer .chu{
     section.about .about-me-image {
         height: 400px;
         padding-left: 5rem;
-        /* margin-top: -5rem; */
+        margin-right: 5rem;
+        margin-left: -5rem;
     }
 
     section.about h1 {
@@ -796,46 +797,21 @@ footer .chu{
     }
 
 
-    section.blog .card-wrapper .card p {
-        font-family: 'Ibarra Real Nova', serif;
-        color: var(--ternary);
-        margin-top: 0.8rem;
-        margin-bottom: 1rem;
-        padding-right: 5rem;
-    }
+section.blog .card-wrapper{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:3rem;
+}
 
-    /* section.blog .card-wrapper .card{
-    background: var(--pure);
-    padding-left: -2rem;
-} */
-    section.blog .card-wrapper .card .image-wrapper img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 
-    section.blog .card-wrapper .card img {
-        padding-left: 0rem;
-        width: 450px;
-        height: 300px;
-        padding-top: 0rem;
-    }
+section.blog .card-wrapper .card img {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 0rem;
+}
 
-    section.blog .card-wrapper .card h1 {
-        font-size: 2.5rem;
-        font-family: 'Ibarra Real Nova', serif;
-        font-weight: 500;
-        text-align: center;
-        padding-top: 2rem;
-        color: #0b8589;
-        padding-right: 5rem;
-    }
-
-    section.blog {
-        background: var(--dark);
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 93.5%, 0 100%);
-        padding-bottom: 12rem;
-    }
 
     section.about .social a {
         margin-right: 0.3rem;
@@ -878,9 +854,12 @@ footer .chu{
         margin-top: 2rem;
     }
 
+    
     section.about .about-me-image {
         height: 450px;
-        margin-right: 10rem;
+        padding-left: 5rem;
+        margin-right: 5rem;
+        margin-left: 0rem;
     }
 
     section {
@@ -924,12 +903,6 @@ footer .chu{
         margin-top: 0rem;
     }
 
-    section.blog .card-wrapper {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 3rem;
-        margin-left: -3rem;
-    }
 
     section.freelancer {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
@@ -953,15 +926,11 @@ footer .chu{
     section.blog {
         background: var(--dark);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 99%, 0 100%);
-        /* clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 99.4%, 80% 100%, 70% 99.4%, 60% 100%, 50% 99.4%, 40% 100%, 30% 99.4%, 20% 100%, 10% 99.4%, 0 100%); */
         padding-bottom: 8rem;
     }
 
-    section.blog .card-wrapper .card {
-        background: var(--pure);
-        margin-right: 5rem;
-        padding-right: -3rem;
-        grid-column: auto;
+    section.blog .card-wrapper .card h1 {
+        font-size: 2rem;
     }
 
     section.contact .input-wrap {
@@ -1080,7 +1049,7 @@ footer .chu{
     }
 
     section.blog .card-wrapper .card h1 {
-        font-size: 2.2rem;
+        font-size: 1.7rem;
     }
 }
 
