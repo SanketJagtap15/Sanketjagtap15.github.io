@@ -975,7 +975,7 @@ footer .chu{
         font-size: 2.4rem;
     }
 
-    .section-heading+p {
+    section.blog .section-heading+p {
         margin-bottom: 4rem;
     }    
 
@@ -985,6 +985,10 @@ footer .chu{
         grid-gap: 1.4rem;
         margin-bottom: 1.4rem;
         margin-top: 4rem;
+    }
+
+    section.contact .section-heading{
+        font-size: 2.4rem;
     }
 
     /* #resume {
@@ -1061,6 +1065,7 @@ footer .chu{
         margin-top: 2rem;
         background: var(--light);
         padding: 1rem 0rem;
+        font-size: 2.5rem;
     }
 
     section.bar .progress-wrap {
