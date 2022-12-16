@@ -346,11 +346,9 @@ section.blog .card-wrapper .card .image-wrapper img {
 }
 
 section.blog .card-wrapper .card img {
-    padding-left: 2rem;
-    padding-right: -2rem;
+    margin: 2rem 2rem 0 2rem;
     width: 500px;
-    height: 350px;
-    padding-top: 2rem;
+    height: 300px;
 }
 
 section.blog .card-wrapper .card .card-content {
@@ -536,6 +534,11 @@ footer .copyright {
     position: relative;
 }
 
+.mobile-nav ul{
+    text-align: center;
+    margin-left: 30rem;
+}
+
 .hamberger {
     position: fixed;
     top: 29px;
@@ -568,7 +571,7 @@ footer .copyright {
 }
 
 .open {
-    transform: translateX(-40%);
+    transform: translateX(-60%);
 }
 
 .times {
@@ -765,6 +768,7 @@ footer .chu{
         cursor: pointer;
         text-transform: uppercase;
         transition: all 0.3s ease;
+        text-align: center;
     }
 
 
@@ -800,35 +804,12 @@ footer .chu{
         margin-bottom: -3rem;
     }
 
-
-section.blog .card-wrapper{
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap:3rem;
-}
-
-
-section.blog .card-wrapper .card img {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    width: 100%;
-    height: 100%;
-}
-
-section.blog .card-wrapper .card .edu2 {
-    font-family: 'Ibarra Real Nova', serif;
-    color: var(--ternary);
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    display: block;
-}
-
-section.blog .card-wrapper .card .edu1 {
-    display: none;
-}
-
+    section.blog .card-wrapper .card img {
+        padding: 0 2rem 0 0;
+        margin: 1rem 1rem 0 1rem;
+        width: 100%;
+        height: 100%;
+    }
 
     section.about .social a {
         margin-right: 0.3rem;
@@ -851,6 +832,43 @@ section.blog .card-wrapper .card .edu1 {
         top: 2rem;
         left: 2rem;
     }
+
+    .open {
+        transform: translateX(-40%);
+    }
+
+    .mobile-nav ul{
+        text-align: center;
+        margin-left: 10rem;
+    }
+
+    section.blog .card-wrapper{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:3rem;
+    }
+    
+    
+    section.blog .card-wrapper .card img {
+        padding: 0 1rem 0 0;
+        margin: 0.5rem 0.5rem 0 0.5rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+    section.blog .card-wrapper .card .edu2 {
+        font-family: 'Ibarra Real Nova', serif;
+        color: var(--ternary);
+        margin-top: 0.8rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        display: block;
+    }
+    
+    section.blog .card-wrapper .card .edu1 {
+        display: none;
+    }
+    
 
     .hero .right h1 {
         font-size: 2.7rem;
@@ -947,7 +965,8 @@ section.blog .card-wrapper .card .edu1 {
     }
 
     section.blog .card-wrapper .card h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
+        margin: -1rem 1rem;
     }
 
     section.contact .input-wrap {
@@ -1066,7 +1085,7 @@ section.blog .card-wrapper .card .edu1 {
     }
 
     section.blog .card-wrapper .card h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }
 
