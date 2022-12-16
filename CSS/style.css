@@ -802,6 +802,7 @@ footer .chu{
 
     section.about h1 {
         margin-bottom: -3rem;
+        font-size: 2.4rem;
     }
 
     section.blog .card-wrapper .card img {
@@ -968,6 +969,15 @@ footer .chu{
         font-size: 1.7rem;
         margin: -1rem 1rem;
     }
+
+    section.blog .section-heading{
+        margin-top: 4rem;
+        font-size: 2.4rem;
+    }
+
+    .section-heading+p {
+        margin-bottom: 4rem;
+    }    
 
     section.contact .input-wrap {
         display: grid;
