@@ -816,6 +816,10 @@ footer .chu{
         margin-right: 0.3rem;
     }
 
+    section.services .card-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 
@@ -845,7 +849,7 @@ footer .chu{
 
     section.blog .card-wrapper{
         display:grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-gap:3rem;
     }
     
@@ -928,7 +932,7 @@ footer .chu{
     }
 
     section.services .card-wrapper {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     #critical {
@@ -1086,6 +1090,17 @@ footer .chu{
         padding: 3rem 0rem 0rem 0rem;
     }
 
+}
+
+@media (max-width:680px) {
+    section.services .card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section.blog .card-wrapper{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media (max-width:363px) {
