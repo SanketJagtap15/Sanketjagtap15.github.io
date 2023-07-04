@@ -901,10 +901,11 @@ footer .chu{
     #por{
         font-size: 1.8rem;
         margin-bottom: 0rem;
+        margin-top: -4rem;
     }
 
     #intern{
-        margin-top: -8rem;
+        margin-top: 5rem;
         margin-bottom: 2rem;
         font-size: 2rem;
     }
