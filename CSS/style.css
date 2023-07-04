@@ -855,21 +855,7 @@ footer .chu{
         margin: 0.5rem 0.5rem 0 0.5rem;
         width: 100%;
         height: 100%;
-    }
-    
-    section.blog .card-wrapper .card .edu2 {
-        font-family: 'Ibarra Real Nova', serif;
-        color: var(--ternary);
-        margin-top: 0.8rem;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        display: block;
-    }
-    
-    section.blog .card-wrapper .card .edu1 {
-        display: none;
-    }
-    
+    }    
 
     .hero .right h1 {
         font-size: 2.7rem;
@@ -1100,6 +1086,19 @@ footer .chu{
     section.blog .card-wrapper{
         display:grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    section.blog .card-wrapper .card .edu2 {
+        font-family: 'Ibarra Real Nova', serif;
+        color: var(--ternary);
+        margin-top: 0.8rem;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        display: block;
+    }
+    
+    section.blog .card-wrapper .card .edu1 {
+        display: none;
     }
 
     #critical2 {
