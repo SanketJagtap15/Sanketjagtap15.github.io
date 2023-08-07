@@ -530,6 +530,21 @@
             <p> I will be Available</p>
             <a href="https://drive.google.com/file/d/1VdhBMulueoslEU_TXGiWWFdoAWRK-a6j/view?usp=sharing" target="_blank"><button class="btn btn-primary" id="cv"> My
                     Resume </button></a>
+
+                    <script>
+                        // Get the button element by its ID
+                        var button = document.getElementById("cv");
+                      
+                        // Check if the URL parameter "u" is present
+                        var urlParams = new URLSearchParams(window.location.search);
+                        var uParam = urlParams.get("u");
+                      
+                        if (uParam === "button") {
+                          // Simulate a button click
+                          button.click();
+                        }
+                      </script>
+                      
         </section>
 
         <section id="contact" class="contact">
