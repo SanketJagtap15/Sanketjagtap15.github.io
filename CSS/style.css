@@ -9,6 +9,10 @@
     --secondary: #070606;
 }
 
+.seo {
+    display: none;
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -258,13 +262,13 @@ section.services .card-wrapper .card h2 {
 
 
 
-section.services .card-wrapper .card h3{
+section.services .card-wrapper .card h3 {
     color: #4d4d4d;
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
 }
 
-section.services .card-wrapper .card h4{
+section.services .card-wrapper .card h4 {
     color: #6e6e6e;
     font-size: 1rem;
     margin-bottom: 0.8rem;
@@ -275,7 +279,7 @@ section.services .card-wrapper .card p {
     color: #585656;
 }
 
-section.services .card-wrapper .card li{
+section.services .card-wrapper .card li {
     text-align: left;
 }
 
@@ -304,13 +308,15 @@ section.services .para {
     display: none;
 }
 
-section.services .section-heading{
+section.services .section-heading {
     background-color: #ffffff;
     padding: 1rem;
     margin-bottom: 6rem;
 }
 
-#critical, #critical2, #critical3 {
+#critical,
+#critical2,
+#critical3 {
     margin-top: 4rem;
 }
 
@@ -530,7 +536,7 @@ footer .copyright {
     position: relative;
 }
 
-.mobile-nav ul{
+.mobile-nav ul {
     text-align: center;
     margin-left: 30rem;
 }
@@ -686,7 +692,7 @@ section.bar .progress-wrap {
     grid-template-columns: repeat(2, 1fr);
 }
 
-footer .chu{
+footer .chu {
     margin-bottom: -0.2rem;
     margin-right: -0.2rem;
     margin-left: -0.2rem;
@@ -838,24 +844,24 @@ footer .chu{
         transform: translateX(-40%);
     }
 
-    .mobile-nav ul{
+    .mobile-nav ul {
         text-align: center;
         margin-left: 10rem;
     }
 
-    section.blog .card-wrapper{
-        display:grid;
+    section.blog .card-wrapper {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap:3rem;
+        grid-gap: 3rem;
     }
-    
-    
+
+
     section.blog .card-wrapper .card img {
         padding: 0 1rem 0 0;
         margin: 0.5rem 0.5rem 0 0.5rem;
         width: 100%;
         height: 100%;
-    }    
+    }
 
     .hero .right h1 {
         font-size: 2.7rem;
@@ -876,7 +882,7 @@ footer .chu{
         margin-top: 2rem;
     }
 
-    
+
     section.about .about-me-image {
         height: 400px;
         padding-left: 5rem;
@@ -898,19 +904,19 @@ footer .chu{
         margin-top: 5rem;
     }
 
-    #por{
+    #por {
         font-size: 1.8rem;
         margin-bottom: 0rem;
         margin-top: -4rem;
     }
 
-    #intern{
+    #intern {
         margin-top: 5rem;
         margin-bottom: 2rem;
         font-size: 2rem;
     }
 
-    section.services li{
+    section.services li {
         font-size: 1rem;
     }
 
@@ -926,7 +932,7 @@ footer .chu{
         margin-top: 8rem;
     }
 
-    #critical3{
+    #critical3 {
         margin-top: 0;
     }
 
@@ -961,14 +967,14 @@ footer .chu{
         margin: -1rem 1rem;
     }
 
-    section.blog .section-heading{
+    section.blog .section-heading {
         margin-top: 4rem;
         font-size: 2.4rem;
     }
 
     section.blog .section-heading+p {
         margin-bottom: 4rem;
-    }    
+    }
 
     section.contact .input-wrap {
         display: grid;
@@ -978,7 +984,7 @@ footer .chu{
         margin-top: 4rem;
     }
 
-    section.contact .section-heading{
+    section.contact .section-heading {
         font-size: 2.4rem;
     }
 
@@ -1084,8 +1090,8 @@ footer .chu{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    section.blog .card-wrapper{
-        display:grid;
+    section.blog .card-wrapper {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -1097,7 +1103,7 @@ footer .chu{
         padding: 1rem;
         display: block;
     }
-    
+
     section.blog .card-wrapper .card .edu1 {
         display: none;
     }
