@@ -1,19 +1,19 @@
-body{
+body {
     background: rgb(46, 46, 46);
     padding: 0;
 }
 
 
-.resume img{
+.resume img {
     width: 100%;
     border: 12px;
     border-color: rgb(0, 1, 1);
     padding-top: 5rem;
-    position:absolute;
+    position: absolute;
     /* transform: translateX(25%); */
 }
 
-.this{
+.this {
     color: bisque;
     font-size: 2rem;
     padding: 1rem;
@@ -21,7 +21,7 @@ body{
     margin-top: 3rem;
     width: 40%;
     transform: translateX(72%);
-} 
+}
 
 /* @media (min-width: 576px){
     .resume img{
