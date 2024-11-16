@@ -55,6 +55,29 @@ header {
     margin: 0 auto;
 }
 
+.image-slider {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    /* Adjust to your desired width */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    /* Optional: Add rounded corners */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* Match the container's corners */
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
@@ -163,7 +186,7 @@ section {
 }
 
 section.about .about-me-image {
-    height: 450px;
+    height: 550px;
     margin-left: 5rem;
 }
 
