@@ -63,6 +63,7 @@ header {
     margin: auto;
     overflow: hidden;
     border-radius: 10px;
+    padding-bottom: 2rem;
     /* Optional: Add rounded corners */
 }
 
@@ -815,7 +816,7 @@ footer .chu {
     }
 
     .hero {
-        padding-top: 10rem;
+        padding-top: 3rem;
     }
 
     section.about .about-me-image {
