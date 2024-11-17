@@ -69,7 +69,7 @@ header {
 
 .slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.7s ease-in-out;
 }
 
 .slides img {
@@ -114,7 +114,7 @@ header {
 nav .left a {
     color: var(--pure);
     text-decoration: none;
-    margin-right: 6rem;
+    margin-right: 7rem;
     font-size: 25px;
     transition: all 0.3s ease;
 
